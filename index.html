@@ -12,49 +12,74 @@
 <body>
     <header>
         <nav>
-            <div class="bg-green-500 text-white p-3">
-                <ul>
-                    <li><img class="rounded-xl" src="./assets/img/profile.jpg" alt="Logotipo"></li>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#"></a>Obra Sociales</li>
-                    <li><a href="#">Contacto</a></li>
+            <div class="bg-emerald-400 text-white font-bold text-2xl p-3">
+                <ul class="flex justify-evenly items-center">
+                    <li>
+                        <div class="">
+                            <img class="rounded-3xl" src="./assets/img/profile.jpg" alt="Farmacia Zanni">
+                        </div>
+                    </li>
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="#obrassociales">Obra Sociales</a></li>
+                    <li><a href="#contact">Contacto</a></li>
                 </ul>
             </div>
         </nav>
         <div class="container">
             <div class="content">
                 <h1>Farmacia Zanni</h1>
-                <p>Los Mejores Productos</p>
+                <p>Productos</p>
             </div>
         </div>
     </header>
-        <div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d615.6161493995398!2d-60.69580426484868!3d-32.96382280922788!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ac93709452f1%3A0xd9a9cb9740d618bf!2sFarmacia%20y%20Perfumeria%20ZANNI!5e1!3m2!1ses-419!2sar!4v1738603420793!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+    <div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d615.6161493995398!2d-60.69580426484868!3d-32.96382280922788!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ac93709452f1%3A0xd9a9cb9740d618bf!2sFarmacia%20y%20Perfumeria%20ZANNI!5e1!3m2!1ses-419!2sar!4v1738603420793!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
 
-        <div>
-            <form action="" method="post">
-                <label for="nombre">Nombre:</label>
-                <input type="text" name="nombre" id="nombre" required>
-                <label for="email">Email:</label>
-                <input type="email" name="email" id="email" required>
-                <label for="mensaje">Mensaje:</label>
-                <textarea name="mensaje" id="mensaje" required></textarea>
-                <input type="submit" value="Enviar">
-            </form>
+    <div id="obrassociales">
+        <h2>Obra Sociales</h2>
+        <ul>
+            <li>OSDE</li>
+            <li>SWISS MEDICAL</li>
+            <li>GALENO</li>
+            <li>OMINT</li>
+            <li>OSPE</li>
+            <li>OSUNL</li>
+            <li>OSDE</li>
+        </ul>
+    </div>
+
+    <div id="contact" class="">
+        <form action="" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" required>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea name="mensaje" id="mensaje" required></textarea>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+
+    <div class="static">
+        <div class="absolute bottom-40 right-10 h-14 w-14 border-4 border-emerald-700 rounded-full text-emerald-700 p-1 text-center">
+            <a href="https://wa.me/5493417183990?text=Necesito%20hacer%20una%20consulta" target="_blank"><i class="fa-brands fa-whatsapp text-4xl font-extrabold"></i></a>
         </div>
+    </div>
+
     <footer class="bg-gray-100 text-center text-gray-800">
-        <div class="container flex flex-col md:flex-row items-center justify-between p-3">
+        <div class="flex flex-col md:flex-row items-center justify-around">
             <div class="content">
                 <h2 class="font-bold">Ubicacion:</h2>
                 <p><i class="fa-solid fa-location-dot"></i> Amenábar 5359</p>
-                <p>(2000) Rosario - Santa Fé</p>
-                <p></p>
+                <p>(2000) Rosario - Santa Fé</p>                    <p></p>
             </div>
-            <div class="content ">
+            <div class="content">
                 <h2 class="font-bold" >Contacto:</h2>
                 <p><i class="fa-brands fa-whatsapp"></i> Tel.: (+54) 341-7183990</p>
-                <p><i class="fa-regular fa-envelope"></i> Email: farmacia_zanni1@hotmail.com
+                <p><i class="fa-regular fa-envelope"></i> Email: farmacia_zanni1@hotmail.com</p>
+            </div>
+        </div>
     </footer>
 </body>
 </html>

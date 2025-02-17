@@ -1,4 +1,6 @@
-# pharma_proy
+# Pharma_proy
 ## Web Farmacia
-. Proyecto personal para publicitar un negocio
-. Realizado solamente con HTML y CSS
+- Proyecto para publicitar e impulsar las ventas de un negocio.
+- Maquetado con HTML.
+- Utilización de framework de Tailwind para CSS.
+- Utilización de íconos especiales de 'FontAwesome'.
